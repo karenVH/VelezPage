@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.container h3{
+    letter-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container p{
+    width: 50%;
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+@media (max-width: 800px) {
+    .container p{
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .container h3{
+        font-size: 12px;
+    }
+
+}
