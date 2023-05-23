@@ -34,9 +34,9 @@ export default function Home() {
           <Header />
         <div className={styles.sticky} id="seccion1">
           <BannerVideo />
-          <BannerText />
         </div>
-        <div className={styles.content}>
+        <div className={styles.sticky2}>
+          <BannerText />
           <Flex />
           <Accesorios />
           <Bolsos />
