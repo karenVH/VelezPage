@@ -1,0 +1,55 @@
+.container {
+    width: 100vw;
+    height: 500px;
+    background: red;
+    position: relative;
+}
+
+.container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 44, 5, 0.363);
+    /* background: #000000 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    position: absolute;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    justify-items: center;
+    align-items: end;
+  
+}
+
+.contain button{
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.texts{
+    column-gap: 20px;
+    display: flex;
+}
+
+.contain p{
+   font-family: 'Wix Madefor Display', sans-serif;
+}
+
+@media (max-width: 800px) {
+    .texts{
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+    }
+}
